@@ -13,7 +13,7 @@ A few extra pixels may not sound like much, but they allow stabilizing the foota
 1. **Download exiftool** (Windows Executable) from [exiftool.org](https://exiftool.org/).
 2. **Unzip and rename** the downloaded file to `exiftool.exe`.
 3. **Move** `exiftool.exe` to the `C:/Windows` folder.
-4. **Paste** the code from <a href="https://github.com/Eloren1/bmpcc-og-full-res/raw/main/bmpcc-og-full-res.bat">this link</a> into a notepad and save it as `bmpcc-og-full-res.bat`.
+4. **Paste** the code from <a href="https://github.com/Eloren1/bmpcc-og-full-res/raw/master/bmpcc-og-full-res.bat">this link</a> into a notepad and save it as `bmpcc-og-full-res.bat`.
 5. **Place** the batch file into a folder where your BMPCC OG footage is located.
 
 ## Usage
