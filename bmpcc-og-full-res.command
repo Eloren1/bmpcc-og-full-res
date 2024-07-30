@@ -7,6 +7,11 @@ if ! command -v exiftool &> /dev/null; then
     exit 1
 fi
 
+# Switch to the directory where the script is installed,
+# without it a .command-file will execute in the home directory
+# https://stackoverflow.com/a/29710607
+cd -- "$(dirname "$0")"
+
 startTime=$(date +"%H:%M:%S")
 echo "[$startTime] Starting script..."
 folderCount=0
