@@ -1,6 +1,6 @@
 ## BMPCC OG Full Res Tool
 
-A simple automation tool to batch convert Blackmagic Pocket Cinema Camera Original CinemaDNG footage from 1920x1080 to 1952x1112, gaining extra resolution for stabilization. It also works for the OG Micro - don't change anything and just use the script as is.
+A simple automation tool for Windows and MacOS to batch convert Blackmagic Pocket Cinema Camera Original CinemaDNG footage from 1920x1080 to 1952x1112, gaining extra resolution for stabilization. It also works for the OG Micro - don't change anything and just use the script as is.
 
 ![Command line](src/readme0-cmd.png) ![Resolution](src/readme1-resolution.png)
 
@@ -8,13 +8,22 @@ A few extra pixels may not sound like much, but they allow stabilizing the foota
 
 [![Guide Video](src/readme2-thumbnail.png)](https://www.youtube.com/watch?v=lVFtVLCurk4)
 
-## Installation
+## Windows Installation
 
-1. **Download exiftool** (Windows Executable) from [exiftool.org](https://exiftool.org/).
-2. **Unzip and rename** the downloaded file to `exiftool.exe`.
-3. **Move** `exiftool.exe` to the `C:/Windows` folder.
-4. **Paste** the code from <a href="https://github.com/Eloren1/bmpcc-og-full-res/raw/master/bmpcc-og-full-res.bat">this link</a> into a notepad and save it as `bmpcc-og-full-res.bat`.
-5. **Place** the batch file into a folder where your BMPCC OG footage is located.
+1. **Download exiftool** (Windows Executable) from [exiftool.org](https://exiftool.org/)
+2. **Unzip and rename** the downloaded file to `exiftool.exe`
+3. **Move** `exiftool.exe` to the `C:/Windows` folder
+4. **Paste** the code from <a href="https://github.com/Eloren1/bmpcc-og-full-res/raw/master/bmpcc-og-full-res.bat">this link</a> into a notepad and save it as `bmpcc-og-full-res.bat`
+5. **Place** the batch file into a folder where your BMPCC OG footage is located
+
+## MacOS Installation
+
+1. Download and install exiftool (MacOS Package) from [exiftool.org](https://exiftool.org/)
+2. Paste the code from <a href="https://github.com/Eloren1/bmpcc-og-full-res/raw/master/bmpcc-og-full-res.command">this link</a> into TextEdit and save it as `bmpcc-og-full-res.command`
+3. Place the file into a folder where your BMPCC OG footage is located
+4. Right-click on the folder with the script and select "Open in Terminal"
+5. Make the script executable by running the command: `chmod +x bmpcc-og-full-res.command`
+6. Execute the script by double-clicking the file
 
 ## Usage
 
@@ -28,7 +37,7 @@ A few extra pixels may not sound like much, but they allow stabilizing the foota
 └── 📂 BMPCC OG_2024-07-03_0357_C0002/
 ```
 
-2. **Run** `bmpcc-og-full-res.bat` each time before importing new footage into DaVinci Resolve.
+2. **Run** `bmpcc-og-full-res` script each time before importing new footage into DaVinci Resolve.
 3. **Set zoom value** in DaVinci Resolve to `1.030x` to get the same field of view as before, or `1.014x` for the widest 16:9 possible.
 
 ## Resolutions
