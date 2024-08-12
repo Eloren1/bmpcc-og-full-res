@@ -41,5 +41,8 @@ rem Get the end time in HH:MM:SS format
 for /f "tokens=1-3 delims=:.," %%a in ("%time%") do set endTime=%%a:%%b:%%c
 echo [%endTime%] Finished processing %folderCount% folders
 
+rem Play the default Windows Asterisk sound
+rundll32 user32.dll,MessageBeep 64
+
 pause
 endlocal
