@@ -16,6 +16,8 @@ A few extra pixels may not sound like much, but they allow stabilizing the foota
 4. **Paste** the code from <a href="https://github.com/Eloren1/bmpcc-og-full-res/raw/master/bmpcc-og-full-res.bat">this link</a> into a notepad and save it as `bmpcc-og-full-res.bat`
 5. **Place** the batch file into a folder where your BMPCC OG footage is located
 
+- PC 12-thread AMD CPU: 1 hour of footage processed in 50 minutes.
+
 ## MacOS Installation
 
 1. Download and install exiftool (MacOS Package) from [exiftool.org](https://exiftool.org/)
@@ -24,6 +26,8 @@ A few extra pixels may not sound like much, but they allow stabilizing the foota
 4. Right-click on the folder with the script and select "Open in Terminal"
 5. Make the script executable by running the command: `chmod +x bmpcc-og-full-res.command`
 6. Execute the script by double-clicking the file
+
+- Apple M4 performance: 1 hour of footage processed in 10 minutes.
 
 ## Usage
 
@@ -50,3 +54,4 @@ A few extra pixels may not sound like much, but they allow stabilizing the foota
 
 - [ ] Implement checks to verify if footage is from BMPCC OG
 - [x] Check if footage already has 1952x1112 resolution
+
